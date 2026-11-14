@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="برنامج إدارة محل الوميتال للمخزون والعملاء والمبيعات والفواتير والتحصيل.">
+  <title>إدارة محل الوميتال</title>
+  <style>
+    :root {
+      color-scheme: light;
+      font-family: Tahoma, Arial, sans-serif;
+      color: #142d4e;
+      background: #f2f5f9;
+    }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+    }
+    main {
+      box-sizing: border-box;
+      width: min(720px, calc(100% - 32px));
+      padding: 44px 36px;
+      border: 1px solid #dce4ed;
+      border-radius: 20px;
+      background: #fff;
+      box-shadow: 0 16px 48px #142d4e18;
+    }
+    h1 { margin-top: 0; font-size: clamp(2rem, 6vw, 3rem); }
+    p, li { color: #536780; line-height: 1.9; }
+    .actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
+    a {
+      display: inline-block;
+      padding: 12px 18px;
+      border-radius: 10px;
+      background: #2563a6;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a.secondary { background: #e7edf4; color: #142d4e; }
+    footer { margin-top: 28px; font-size: .9rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>إدارة محل الوميتال</h1>
+    <p>برنامج مكتبي لإدارة المنتجات والمخزون والعملاء والمبيعات والفواتير والتحصيل والأقساط، مع طباعة PDF وتصدير Excel.</p>
+    <ul>
+      <li>واجهة عربية من اليمين لليسار، مع دعم اللغة الإنجليزية.</li>
+      <li>قاعدة بيانات محلية يختار المستخدم مكانها.</li>
+      <li>تنزيل إصدار Windows المستقل من صفحة الإصدارات.</li>
+    </ul>
+    <div class="actions">
+      <a href="https://github.com/ahmeddahees/AlumetalManager/releases/latest/download/AlumetalManager.exe">تنزيل أحدث إصدار</a>
+      <a class="secondary" href="https://github.com/ahmeddahees/AlumetalManager">صفحة المشروع على GitHub</a>
+    </div>
+    <footer>تمت البرمجة والتصميم بواسطة الأستاذ أحمد دهيس.</footer>
+  </main>
+</body>
+</html>
